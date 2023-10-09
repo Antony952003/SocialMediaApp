@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://socialpedia-js2l.onrender.com/assets/${image}`}
+        src={`https://social-pedia-app-server.vercel.app/assets/${image}`}
       />
     </Box>
   );
